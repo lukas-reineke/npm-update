@@ -19,3 +19,9 @@ Dev
 User
 
     $ pip install .
+
+
+Command
+
+		$ update
+
