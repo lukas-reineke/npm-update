@@ -1,0 +1,10 @@
+#!/home/lukas/dev/python/updatenpm/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'updatenpm','console_scripts','update'
+__requires__ = 'updatenpm'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('updatenpm', 'console_scripts', 'update')()
+    )

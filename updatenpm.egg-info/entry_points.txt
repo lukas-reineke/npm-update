@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        update=update:cli
+    
