@@ -23,5 +23,5 @@ User
 
 Command
 
-		$ update
+    $ update
 
