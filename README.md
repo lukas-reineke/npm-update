@@ -4,36 +4,44 @@ updates all git modules in package.json
 ## Setup
 
 
-###Dev
+### Dev
 
-    $ pip install virtualenv
-
-    $ virtualenv venv
-
-    $ . venv/bin/activate
-
-    $ pip install -e .
-
-
-
-
-###User
-
-    $ pip install .
+```
+$ pip install virtualenv
+```
+```
+$ virtualenv venv
+```
+```
+$ . venv/bin/activate
+```
+```
+$ pip install -e .
+```
 
 
-###Command
-	run
+### User
 
-    $ update
+```
+$ pip install .
+```
 
-	options
-		---
-		shows help
 
-		$ update --help
+### Command
+run
 
-		forces update
+```
+$ update
+```
 
-		$ update -f
-		$ update --force
+options
+---
+shows help
+```
+$ update --help
+```
+forces update
+```
+$ update -f
+$ update --force
+```
