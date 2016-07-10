@@ -32,17 +32,17 @@ $ pip install .
 run
 
 ```
-$ update
+$ npm-update
 ```
 
 options
 ---
 shows help
 ```
-$ update --help
+$ npm-update --help
 ```
 forces update
 ```
-$ update -f
-$ update --force
+$ npm-update -f
+$ npm-update --force
 ```

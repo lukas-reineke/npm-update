@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='updatenpm',
+    name='npm-update',
     version='0.1',
     py_modules=['update'],
     install_requires=[
@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        update=update:cli
+        npm-update=update:cli
     ''',
 )
