@@ -3,7 +3,6 @@ updates all git modules in package.json
 -f or --force to force reinstall, even if not out of date.
 
 ## Setup
-==========
 
 
 ### Dev
