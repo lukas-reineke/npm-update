@@ -10,7 +10,7 @@ import subprocess
 def cli(force):
     """
         updates all git modules in package.json\n
-        -f or --force to force update even if not out of date.
+        -f or --force to force reinstall, even if not out of date.
     """
 
     try:
