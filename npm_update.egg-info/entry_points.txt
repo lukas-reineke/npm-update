@@ -1,4 +1,4 @@
 
         [console_scripts]
-        update=update:cli
+        npm-update=update:cli
     
