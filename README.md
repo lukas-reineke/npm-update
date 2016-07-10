@@ -1,9 +1,10 @@
-Update git modules in package.json
+updates all git modules in package.json
+-f or --force to force reinstall, even if not out of date.
 ==========
 ## Setup
 
 
-Dev
+###Dev
 
     $ pip install virtualenv
 
@@ -16,12 +17,23 @@ Dev
 
 
 
-User
+###User
 
     $ pip install .
 
 
-Command
+###Command
+	run
 
     $ update
 
+	options
+		---
+		shows help
+
+		$ update --help
+
+		forces update
+
+		$ update -f
+		$ update --force
