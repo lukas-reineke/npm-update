@@ -7,7 +7,8 @@ import subprocess
 
 @click.command()
 @click.option('-f', '--force', count=True)
-def cli(force):
+@click.option('-l', '--local', count=True)
+def cli(force, local):
     """
         updates all git modules in package.json\n
         -f or --force to force reinstall, even if not out of date.
@@ -73,6 +74,11 @@ def cli(force):
                         toInstall = toInstall + packageName[1] + ' '
                     else:
                         upToDate = True
+            if (local):
+                if 'file:' in line:
+                    packageName = line.strip().split('"')
+                    toInstall = toInstall + packageName[1] + ' '
+
 
         if (toInstall):
             click.echo('installing:\n -- %s\n' % toInstall[:-1].replace(' ', '\n -- '))

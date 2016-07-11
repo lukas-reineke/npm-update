@@ -46,3 +46,8 @@ forces update
 $ npm-update -f
 $ npm-update --force
 ```
+updates local files
+```
+$ npm-update -l
+$ npm-update --local
+```
