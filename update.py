@@ -58,7 +58,7 @@ def cli(force):
                         )
 
                     output, err = p.communicate()
-                    newestVersion = str(output).split("'")[1].split('\\')[0]
+                    newestVersion = str(output).split("\t")[0]
 
                     modulePackage = open(
                         os.path.join(
@@ -83,5 +83,5 @@ def cli(force):
             else:
                 click.echo('no git modules in package.json')
 
-    except:
-        click.echo('no package.json found')
+    except(err):
+        click.echo('no package.json found %s' & err)
