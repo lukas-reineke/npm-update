@@ -89,5 +89,5 @@ def cli(force, local):
             else:
                 click.echo('no git modules in package.json')
 
-    except(err):
-        click.echo('no package.json found %s' & err)
+    except:
+        click.echo('no package.json found')
