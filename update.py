@@ -66,6 +66,7 @@ def cli(force, local):
                             'node_modules', packageName[1], 'package.json'
                         )
                     )
+                    installedVersion = None
                     for moduleLine in modulePackage:
                         if 'resolved' in moduleLine:
                             installedVersion = moduleLine.split('#')[1].split('"')[0]
