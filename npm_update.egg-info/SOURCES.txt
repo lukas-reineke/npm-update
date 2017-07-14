@@ -1,7 +1,0 @@
-update.py
-npm_update.egg-info/PKG-INFO
-npm_update.egg-info/SOURCES.txt
-npm_update.egg-info/dependency_links.txt
-npm_update.egg-info/entry_points.txt
-npm_update.egg-info/requires.txt
-npm_update.egg-info/top_level.txt
